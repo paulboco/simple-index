@@ -1,6 +1,8 @@
 <h1>Welcome to <?= $_SERVER['HTTP_HOST'] ?></h1>
 <h2 style="color:silver;"><?= $_SERVER['DOCUMENT_ROOT'] ?></h2>
-<pre><?= print_r($_SERVER) ?></pre>
+<h2 style="color:silver;"><?= $_SERVER['HTTP_REFERER'] ?></h2>
+
+<pre><?= //print_r($_SERVER) ?></pre>
 
 <ul>
     <li><a target="_blank" href="http://paulboco.com">http://paulboco.com</a></li>
